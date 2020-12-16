@@ -1,0 +1,1 @@
+this is a database that logs the diverse characters from Naruto as well as their abilities  
