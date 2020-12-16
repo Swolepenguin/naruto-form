@@ -1,5 +1,3 @@
-const {Mongoose} = require('mongoose')
-
 const mongoose = require('mongoose')
 
 const characterSchema = new mongoose.Schema({
@@ -15,6 +13,6 @@ const abilitySchema = new mongoose.Schema({
     chakraStorage: String 
 })
 
-const NarutoForm = mongoose.model('NarutoForm')
+const NarutoForm = mongoose.model('characters', characterSchema )
 
 module.exports = NarutoForm

@@ -1,7 +1,7 @@
 require('dotenv').config()
 const mongoose = require('mongoose')
 const express = require('express')
-const NarutoForm = require('./models/form')
+const NarutoForm = require('./models/character')
 const app = express()
 
 const db = mongoose.connection
